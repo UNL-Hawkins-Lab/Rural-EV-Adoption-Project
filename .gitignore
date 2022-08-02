@@ -1,0 +1,606 @@
+
+Coding stuffs.R
+Coding tasks.R
+Correct expected EV range.R
+county to county trips met by EV range.R
+dictionary of each car type maybe.R
+Experian work except Jason can open.R
+filtered percent trucks but jason should be able to open.R
+filtered percent trucks for the ANOVA.R
+GIS/buffer_1mi.shx
+GIS/buffer_1mi.shp
+GIS/buffer_1mi.qmd
+GIS/buffer_1mi.qix
+GIS/buffer_1mi.prj
+GIS/buffer_1mi.dbf
+GIS/buffer_1mi.cpg
+GIS/buffer_range.cpg
+GIS/buffer_range.dbf
+GIS/buffer_range.prj
+GIS/buffer_range.qix
+GIS/buffer_range.qmd
+GIS/buffer_range.shp
+GIS/buffer_range.shx
+GIS/charger_count_county.xlsx
+GIS/pts_polygons_1mi.dbf
+GIS/pts_polygons_1mi.prj
+GIS/pts_polygons_1mi.shp
+GIS/pts_polygons_1mi.shx
+GIS/pts_polygons_range.dbf
+GIS/pts_polygons_range.prj
+GIS/pts_polygons_range.shp
+GIS/pts_polygons_range.shx
+GIS/public_stations.cpg
+GIS/public_stations.dbf
+GIS/public_stations.prj
+GIS/public_stations.qix
+GIS/public_stations.qmd
+GIS/public_stations.shp
+GIS/public_stations.shx
+Kontou_Code_Data/DOI-10-13012-b2idb-9337369_v1.zip
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/.DS_Store
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/.ipynb_checkpoints/Folium map-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/.ipynb_checkpoints/Projection of Fuel Consumption-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/.ipynb_checkpoints/USA-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/.DS_Store
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/.ipynb_checkpoints/sensitivity-census-checkpoint.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/AC_tract_US.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/adaptive_capacity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/exposure.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/exposure_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/sensitivity.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/sensitivity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_data/Untitled.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_01_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_01_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_01_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_01_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_01_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_01_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_01_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_02_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_02_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_02_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_02_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_02_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_02_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_02_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_04_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_04_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_04_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_04_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_04_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_04_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_04_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_05_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_05_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_05_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_05_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_05_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_05_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_05_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_06_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_06_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_06_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_06_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_06_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_06_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_06_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_08_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_08_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_08_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_08_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_08_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_08_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_08_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_09_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_09_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_09_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_09_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_09_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_09_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_09_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_10_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_10_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_10_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_10_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_10_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_10_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_10_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_11_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_11_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_11_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_11_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_11_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_11_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_11_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_12_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_12_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_12_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_12_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_12_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_12_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_12_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_13_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_13_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_13_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_13_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_13_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_13_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_13_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_15_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_15_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_15_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_15_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_15_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_15_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_15_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_16_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_16_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_16_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_16_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_16_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_16_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_16_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_17_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_17_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_17_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_17_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_17_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_17_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_17_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_18_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_18_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_18_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_18_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_18_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_18_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_18_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_19_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_19_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_19_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_19_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_19_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_19_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_19_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_20_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_20_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_20_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_20_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_20_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_20_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_20_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_21_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_21_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_21_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_21_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_21_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_21_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_21_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_22_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_22_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_22_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_22_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_22_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_22_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_22_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_23_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_23_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_23_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_23_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_23_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_23_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_23_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_24_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_24_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_24_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_24_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_24_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_24_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_24_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_25_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_25_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_25_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_25_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_25_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_25_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_25_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_26_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_26_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_26_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_26_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_26_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_26_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_26_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_27_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_27_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_27_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_27_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_27_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_27_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_27_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_28_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_28_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_28_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_28_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_28_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_28_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_28_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_29_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_29_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_29_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_29_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_29_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_29_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_29_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_30_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_30_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_30_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_30_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_30_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_30_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_30_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_31_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_31_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_31_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_31_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_31_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_31_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_31_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_32_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_32_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_32_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_32_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_32_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_32_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_32_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_33_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_33_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_33_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_33_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_33_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_33_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_33_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_34_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_34_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_34_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_34_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_34_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_34_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_34_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_35_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_35_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_35_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_35_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_35_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_35_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_35_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_36_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_36_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_36_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_36_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_36_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_36_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_36_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_37_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_37_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_37_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_37_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_37_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_37_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_37_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_38_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_38_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_38_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_38_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_38_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_38_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_38_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_39_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_39_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_39_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_39_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_39_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_39_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_39_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_40_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_40_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_40_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_40_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_40_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_40_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_40_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_41_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_41_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_41_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_41_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_41_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_41_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_41_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_42_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_42_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_42_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_42_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_42_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_42_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_42_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_44_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_44_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_44_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_44_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_44_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_44_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_44_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_45_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_45_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_45_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_45_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_45_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_45_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_45_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_46_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_46_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_46_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_46_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_46_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_46_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_46_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_47_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_47_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_47_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_47_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_47_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_47_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_47_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_48_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_48_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_48_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_48_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_48_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_48_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_48_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_49_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_49_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_49_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_49_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_49_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_49_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_49_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_50_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_50_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_50_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_50_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_50_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_50_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_50_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_51_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_51_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_51_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_51_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_51_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_51_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_51_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_53_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_53_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_53_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_53_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_53_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_53_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_53_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_54_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_54_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_54_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_54_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_54_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_54_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_54_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_55_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_55_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_55_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_55_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_55_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_55_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_55_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_56_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_56_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_56_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_56_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_56_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_56_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_56_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_60_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_60_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_60_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_60_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_60_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_60_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_60_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_66_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_66_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_66_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_66_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_66_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_66_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_66_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_69_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_69_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_69_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_69_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_69_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_69_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_69_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_72_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_72_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_72_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_72_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_72_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_72_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_72_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_78_tract_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_78_tract_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_78_tract_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_78_tract_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_78_tract_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_78_tract_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/census_shp/cb_2018_78_tract_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/.DS_Store
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/.ipynb_checkpoints/Chicago-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/ACSDP5Y2019.DP05_data_with_overlays_2021-05-06T232055.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/ACSDP5Y2019.DP05_data_with_overlays_2021-05-17T053431.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/adaptive_capacity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Basemap/geo_export_c929b563-c4bb-45df-82b1-3f329643ec70.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Basemap/geo_export_c929b563-c4bb-45df-82b1-3f329643ec70.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Basemap/geo_export_c929b563-c4bb-45df-82b1-3f329643ec70.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Basemap/geo_export_c929b563-c4bb-45df-82b1-3f329643ec70.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/chi_all_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Chi_X7_test_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Chicago.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Chicago_AC_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Chicago_exposure_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Chicago_vulnerability_add.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Chicago_vulnerability_multip.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/exposure_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/sensitivity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Chicago Analysis/Vulnerability Score.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/Adaptive Capacity_USA.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/Exposure_USA.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/Fuel Consumption_USA.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/IL_2050CV.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/IL_2050EV.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/Price_USA.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/Sensitivity_USA.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/Vul_score_add.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/Vul_score_mulpi.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/X1.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Figures/X7.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Folium map.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Ln.bmp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Ln.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Ln.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Ln.sbn
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Ln.sbx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Ln.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Ln.shp.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Ln.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Py.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Py.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Py.sbn
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Py.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Py.shp.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/IL_county_shp/IL_BNDY_County_Py.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/.DS_Store
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/.ipynb_checkpoints/LA-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/adaptive_capacity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/BaseMap/geo_export_acfd72fc-caf9-4919-b678-e0d2c103c712.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/BaseMap/geo_export_acfd72fc-caf9-4919-b678-e0d2c103c712.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/BaseMap/geo_export_acfd72fc-caf9-4919-b678-e0d2c103c712.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/BaseMap/geo_export_acfd72fc-caf9-4919-b678-e0d2c103c712.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/exposure_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/LA.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/LA_AC_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/la_all_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/LA_All_data.xlsx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/LA_exposure_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/sensitivity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/LA Analysis/Vulnerability Score.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/.DS_Store
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/.ipynb_checkpoints/Nebraska-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/.ipynb_checkpoints/Omaha-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/AC_tract_US.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/ACSDP5Y2019.DP05_data_with_overlays_2021-05-06T232055.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/ACSDP5Y2019.DP05_data_with_overlays_2021-05-17T053431.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/adaptive_capacity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/geo_export_c929b563-c4bb-45df-82b1-3f329643ec70.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/geo_export_c929b563-c4bb-45df-82b1-3f329643ec70.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/geo_export_c929b563-c4bb-45df-82b1-3f329643ec70.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/geo_export_c929b563-c4bb-45df-82b1-3f329643ec70.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/omaha_ct_ne_ia.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/omaha_ct_ne_ia.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/omaha_ct_ne_ia.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/omaha_ct_ne_ia.qmd
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/omaha_ct_ne_ia.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Basemap/omaha_ct_ne_ia.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/chi_all_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/exposure.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/exposure_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/NE_sensitivity_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/NE_X7_test_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Nebraska.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Nebraska_exposure_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Nebraska_vulnerability_add.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Nebraska_vulnerability_multip.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/om_sensitivity_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/om_X7_test_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Omaha.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Omaha_exposure_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Omaha_vulnerability_add.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Omaha_vulnerability_multip.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/sensitivity.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/sensitivity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Nebraska Analysis/Vulnerability Score.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/.DS_Store
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/.ipynb_checkpoints/NY-checkpoint.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/adaptive_capacity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/Housing Database - Data Dictionary.xlsx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/Housing Database - ReadMe.pdf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/Housing Summary Files - Data Dictionary.xlsx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/Housing Summary Files - ReadMe.pdf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/HousingDB_by_CensusTract.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/HousingDB_by_CensusTract.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/HousingDB_by_CensusTract.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/HousingDB_by_CensusTract.sbn
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/HousingDB_by_CensusTract.sbx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/HousingDB_by_CensusTract.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/HousingDB_by_CensusTract.shp.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/BaseMap/HousingDB_by_CensusTract.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/exposure_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/NY.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/ny_all_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/NY_All_data.xlsx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/NY_exposure_map.png
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/sensitivity_census.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/NY Analysis/Vulnerability Score.csv
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Projection of Fuel Consumption.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/README.md
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/state_shp/cb_2018_us_state_500k.cpg
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/state_shp/cb_2018_us_state_500k.dbf
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/state_shp/cb_2018_us_state_500k.prj
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/state_shp/cb_2018_us_state_500k.shp
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/state_shp/cb_2018_us_state_500k.shp.ea.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/state_shp/cb_2018_us_state_500k.shp.iso.xml
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/state_shp/cb_2018_us_state_500k.shx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/USA.ipynb
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/vul_score CV-EV_base.xlsx
+Kontou_Code_Data/ekontou-Transportation-Energy-Vunerability-83596ad/Vulnerability Score.csv
+Kontou_Code_Data/Transportation-Energy-Vunerability-v1.0.0.zip
+Transportation-Energy-Vunerability/
+REU2021 - Task Description\[2305843009266564444\].docx
+REU2021 - Task Description.docx
+REU2021 - Project Description.docx
+References/Yuksel_2016_Environ._Res._Lett._11_044007.pdf
+References/siting_evse_with_equity_final_3-30-21.pdf
+References/rmp-Litman.pdf
+References/Preparing Rural America for the Electric Vehicle Revolution.pdf
+References/NCHRP_Rural_Report.pdf
+References/Kontou_Transport_Energy_Vunerability.pdf
+References/innovation-rural-mobility.pdf
+References/IMG_20220112_163047655.jpg
+References/Charging-Forward_A-Toolkit-for-Planning-and-Funding-Rural-Electric-Mobility-Infrastructure_Feb2022.pdf
+References/ACS_rural_handbook_2019_ch01.pdf
+References/2021_Rural_Access_Health.pdf
+References/2016_Rural_Accessiblity.pdf
+NHTS and Experian work but set up for Jason to open it.R
+NHTS/AppendixD_LATCH2017.xlsx
+NHTS/Citation.docx
+NHTS/codebook_v1.2.xlsx
+NHTS/csv.zip
+NHTS/dictionary_v1_2.xlsx
+NHTS/hhpub.csv
+NHTS/latch-2017-methodology-appendix-d.html
+NHTS/latch_2017-b.csv
+NHTS/NHTS2017_UsersGuide_04232019_1.pdf
+NHTS/perpub.csv
+NHTS/trippub.csv
+NHTS/vehpub.csv
+GIS/pts_polygons_range.zip
